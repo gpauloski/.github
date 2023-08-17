@@ -22,10 +22,11 @@ body:
         E.g., install via pip, install from source, etc. **Note:** this will
         be rendered as console text automatically.
       placeholder: |
-        $ pip install ProxyStore
-        Collecting ProxyStore
+        $ pip install foobar
+        Collecting foobar
         ...
-        Successfully installed ProxyStore...
+        Successfully installed foobar...
+        $ foobar run
       render: console
     validations:
       required: true
